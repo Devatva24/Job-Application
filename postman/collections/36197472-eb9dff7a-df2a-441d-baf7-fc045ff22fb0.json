@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "36197472-eb9dff7a-df2a-441d-baf7-fc045ff22fb0",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create job",
+			"id": "36197472-9d4b800c-2219-4ffb-9385-1a5946ce3c98",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": 1,\r\n\t\"title\": \"A software engineer needed\",\r\n\t\"description\": \"Test description\",\r\n\t\"minSalary\": \"30000\",\r\n\t\"maxSalary\": \"40000\",\r\n\t\"location\": \"New Jersey\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/jobs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jobs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all jobs",
+			"id": "36197472-cbaf54ef-d22c-4628-ae93-6b2c2889961c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": 1,\r\n\t\"title\": \"A software engineer needed\",\r\n\t\"description\": \"Test description\",\r\n\t\"minSalary\": \"30000\",\r\n\t\"maxSalary\": \"40000\",\r\n\t\"location\": \"New Jersey\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/jobs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jobs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
