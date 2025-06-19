@@ -121,7 +121,7 @@
 				"auth": {
 					"type": "noauth"
 				},
-				"method": "GET",
+				"method": "DELETE",
 				"header": [],
 				"body": {
 					"mode": "raw",
@@ -133,7 +133,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/jobs/21",
+					"raw": "http://localhost:8080/jobs/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -141,7 +141,7 @@
 					"port": "8080",
 					"path": [
 						"jobs",
-						"21"
+						"2"
 					]
 				}
 			},
