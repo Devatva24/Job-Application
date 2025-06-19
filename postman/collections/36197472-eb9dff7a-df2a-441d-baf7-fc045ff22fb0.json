@@ -110,6 +110,42 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Get job by id Copy",
+			"id": "36197472-a5428a2e-e799-434c-ad25-f0f394004c42",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": 1,\r\n\t\"title\": \"A software engineer needed\",\r\n\t\"description\": \"Test description\",\r\n\t\"minSalary\": \"30000\",\r\n\t\"maxSalary\": \"40000\",\r\n\t\"location\": \"New Jersey\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/jobs/21",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"jobs",
+						"21"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
