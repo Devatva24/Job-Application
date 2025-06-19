@@ -157,11 +157,11 @@
 				"auth": {
 					"type": "noauth"
 				},
-				"method": "DELETE",
+				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"id\": 1,\r\n\t\"title\": \"A software engineer needed\",\r\n\t\"description\": \"Test description\",\r\n\t\"minSalary\": \"30000\",\r\n\t\"maxSalary\": \"40000\",\r\n\t\"location\": \"New Jersey\"\r\n}",
+					"raw": "{\r\n\t\"id\": 1,\r\n\t\"title\": \"A software engineer need was fulfilled\",\r\n\t\"description\": \"Test\",\r\n\t\"minSalary\": \"0000\",\r\n\t\"maxSalary\": \"0000\",\r\n\t\"location\": \"Ohio\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -169,7 +169,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/jobs/2",
+					"raw": "http://localhost:8080/jobs/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -177,7 +177,7 @@
 					"port": "8080",
 					"path": [
 						"jobs",
-						"2"
+						"1"
 					]
 				}
 			},
