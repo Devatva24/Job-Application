@@ -112,7 +112,7 @@
 			"response": []
 		},
 		{
-			"name": "Get job by id Copy",
+			"name": "Delete job by id",
 			"id": "36197472-a5428a2e-e799-434c-ad25-f0f394004c42",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
