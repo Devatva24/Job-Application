@@ -76,7 +76,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all jobs Copy",
+			"name": "Get job by id",
 			"id": "36197472-4b4bb39f-a2a2-4aa0-b51a-18dc2f11f1c0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -97,14 +97,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/jobs",
+					"raw": "http://localhost:8080/jobs/21",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"jobs"
+						"jobs",
+						"21"
 					]
 				}
 			},
