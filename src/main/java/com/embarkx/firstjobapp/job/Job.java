@@ -1,14 +1,21 @@
 package com.embarkx.firstjobapp.job;
 
+import jakarta.persistence.*;
 import org.springframework.context.annotation.Primary;
-
+@Entity
+@Table(name = "job_table")
 public class Job {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // jpa will automatically increment and save id we dont need to generate manually
     private Long id;
     private String title;
     private String description;
     private String minSalary;
     private String maxSalary;
     private String location;
+
+    public Job() { // whenever working with jpa we need to generate default constructor
+    }
 
     public Job(Long id, String title, String description, String minSalary, String maxSalary, String location) {
         this.id = id;
