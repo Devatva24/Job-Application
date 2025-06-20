@@ -76,7 +76,7 @@
 			"response": []
 		},
 		{
-			"name": "Get job by id",
+			"name": "http://localhost:8080/jobs/4",
 			"id": "36197472-4b4bb39f-a2a2-4aa0-b51a-18dc2f11f1c0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
