@@ -3,7 +3,7 @@ package com.embarkx.firstjobapp.job;
 import jakarta.persistence.*;
 import org.springframework.context.annotation.Primary;
 @Entity
-@Table(name = "job_table")
+//@Table(name = "job_table")
 public class Job {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // jpa will automatically increment and save id we dont need to generate manually
