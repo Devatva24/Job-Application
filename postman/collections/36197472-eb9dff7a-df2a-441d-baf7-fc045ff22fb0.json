@@ -76,7 +76,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/jobs Copy",
+			"name": "http://localhost:8080/companies",
 			"id": "36197472-6b7fc9ad-a667-4b5b-a129-c34428e2d45e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
