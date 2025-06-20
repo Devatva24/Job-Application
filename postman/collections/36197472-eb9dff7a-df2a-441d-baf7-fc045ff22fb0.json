@@ -112,7 +112,7 @@
 			"response": []
 		},
 		{
-			"name": "Delete job by id",
+			"name": "http://localhost:8080/jobs/2",
 			"id": "36197472-a5428a2e-e799-434c-ad25-f0f394004c42",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
