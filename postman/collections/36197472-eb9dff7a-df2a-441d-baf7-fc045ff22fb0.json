@@ -41,7 +41,7 @@
 			"response": []
 		},
 		{
-			"name": "Get all jobs",
+			"name": "http://localhost:8080/jobs",
 			"id": "36197472-cbaf54ef-d22c-4628-ae93-6b2c2889961c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
