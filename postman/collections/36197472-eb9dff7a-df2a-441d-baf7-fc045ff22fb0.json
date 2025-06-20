@@ -111,7 +111,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/companies Copy",
+			"name": "http://localhost:8080/companies",
 			"id": "36197472-09dbc82e-ac33-4793-b5a0-e9d9aa8fdf65",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -120,11 +120,11 @@
 				"auth": {
 					"type": "noauth"
 				},
-				"method": "GET",
+				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"id\": 1,\r\n\t\"title\": \"A software engineer needed\",\r\n\t\"description\": \"Test description\",\r\n\t\"minSalary\": \"30000\",\r\n\t\"maxSalary\": \"40000\",\r\n\t\"location\": \"New Jersey\"\r\n}",
+					"raw": "{\r\n\t\"name\": \"Company 2\",\r\n\t\"description\": \"description 2\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -132,14 +132,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/jobs",
+					"raw": "http://localhost:8080/companies",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"jobs"
+						"companies"
 					]
 				}
 			},
