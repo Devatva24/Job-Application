@@ -146,7 +146,7 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/companies Copy",
+			"name": "http://localhost:8080/companies/2",
 			"id": "36197472-ccfeb648-5f48-489d-a979-bddecf21c28f",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -155,11 +155,11 @@
 				"auth": {
 					"type": "noauth"
 				},
-				"method": "POST",
+				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"name\": \"Company 2\",\r\n\t\"description\": \"description 2\"\r\n}",
+					"raw": "{\r\n\t\"name\": \"Company 2 (updated)\",\r\n\t\"description\": \"description 2 (updated)\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -167,14 +167,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/companies",
+					"raw": "http://localhost:8080/companies/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"companies"
+						"companies",
+						"2"
 					]
 				}
 			},
