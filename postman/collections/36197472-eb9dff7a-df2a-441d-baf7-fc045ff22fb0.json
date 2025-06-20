@@ -146,6 +146,41 @@
 			"response": []
 		},
 		{
+			"name": "http://localhost:8080/companies Copy",
+			"id": "36197472-ccfeb648-5f48-489d-a979-bddecf21c28f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"name\": \"Company 2\",\r\n\t\"description\": \"description 2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/companies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"companies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "http://localhost:8080/jobs/4",
 			"id": "36197472-4b4bb39f-a2a2-4aa0-b51a-18dc2f11f1c0",
 			"protocolProfileBehavior": {
