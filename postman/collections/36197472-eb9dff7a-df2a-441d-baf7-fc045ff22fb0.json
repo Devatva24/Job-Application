@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Create job",
+			"name": "http://localhost:8080/jobs",
 			"id": "36197472-9d4b800c-2219-4ffb-9385-1a5946ce3c98",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
